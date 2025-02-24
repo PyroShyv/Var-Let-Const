@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Testando Funções em JavaScript</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link href="style.css" rel="stylesheet">
+	<!-- Bootstrap (CSS) -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+	<header>
+		<h1>JavaScript: Var, Let, Const</h1>
+		<h2>Testando o uso dessas funções com a poderosa linguagem de programação JavaScript.</h2>
+	</header>
+    
+    <main>
+        <p>No JavaScript, usamos var, let e const para declarar variáveis. Cada uma tem suas próprias regras e comportamentos, o que pode impactar o funcionamento do código.</p>
+        
+        <p>Var – Variáveis de escopo global ou de função</p>
+        <li>Foi a forma tradicional de declarar variáveis antes do ES6.</li>
+        <li>Tem escopo de função, ou seja, uma variável declarada dentro de uma função só pode ser acessada dentro dela.</li>
+        <li>Pode ser redeclarada e reatribuída dentro do mesmo escopo.</li>
+        <li>É içada (hoisting), ou seja, pode ser usada antes da sua declaração sem erro, mas com valor</li>
+
+        <p> Let – Variáveis com escopo de bloco</p>
+        <li>Introduzido no ES6.</li>
+        <li>Tem escopo de bloco, ou seja, só existe dentro do {} onde foi declarada.</li>
+        <li>Pode ser reatribuído, mas não pode ser redeclarado no mesmo escopo.</li>
+        <li>Também sofre hoisting, mas não pode ser acessado antes da inicialização.</li>
+
+        <p>Const – Variáveis constantes</p>
+        <li>Também introduzido no ES6.</li>
+        <li>Tem escopo de bloco, assim como let.</li>
+        <li>Não pode ser reatribuído após a declaração.</li>
+        <li>Objetos e arrays declarados com const podem ter seus valores internos modificados, mas a referência não pode mudar.</li>
+    </main>
+    <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSheet">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header border-bottom-0">
+              <h1 class="modal-title fs-5">Exemplo</h1>
+            </div>
+            <div class="modal-body py-0">
+              <p>Aqui esta um exenplo de uma calculadora utilizando as funções apresentadas anteriormente</p>
+            </div>
+            <div class="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0">
+              <button type="button" class="btn btn-lg btn-primary" id="calcularBtn">Teste da função</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<footer>
+    &copy; 2025 | Wendell Alves
+</footer>
+	<script src="scripts.js"></script>
+	<!-- Bootstrap (JS) -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

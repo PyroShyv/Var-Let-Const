@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+    background-color: #eaeced;
+    color: black;
+    text-align:justify;
+    font-size: large;
+}
+
+header {
+	text-align: center;
+	margin: 0px 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgb(255, 0, 0);
+	color: pink;
+}
+
+header h1 {
+	font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
